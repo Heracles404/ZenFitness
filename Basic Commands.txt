@@ -1,0 +1,5 @@
+GIT COMMANDS
+
+git add *
+git commit -m'TUTORIAL FOR PUSH'
+git push
