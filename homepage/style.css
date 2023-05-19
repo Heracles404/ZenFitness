@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 
 * {
 	margin: 0;
@@ -11,12 +11,8 @@
 }
 
 .header .row {
-	margin-top: 280px;
-
-	padding-right: 500px;
+	margin-top: 150px;
 }
-    
-
 
 .container {
 	font-family: "Merriweather", sans-serif;
@@ -62,32 +58,26 @@ p {
 	color: 865dff;
 }
 
-
-
 .row {
 	padding-left: 130px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
-    font-weight: bold;
-
+	font-weight: bold;
 }
 
 /*This is the Title*/
 .col-2 {
 	flex-basis: 50%;
-	min-width: 700px;
+	min-width: 800px;
 	color: black;
-	margin-top: -250px;
-	padding-left: 50x;
-	
+	margin-top: -200px;
 }
 
 .col-2 img {
 	max-width: 100%;
-	padding-bottom: 0px;
-	padding-left: 200px;
+	padding: 135px 0;
 }
 
 .col-2 h1 {
@@ -109,8 +99,6 @@ p {
 .btn:hover {
 	background: #ffc090;
 }
-
-
 
 .categories {
 	margin: 70px 0;
@@ -147,7 +135,7 @@ p {
 
 .Ftitle {
 	font-family: "Merriweather", sans-serif;
-	margin-left: 510px;
+	margin-left: 710px;
 	margin-right: 0px;
 	margin-bottom: 50px;
 	padding-left: 100px;
@@ -164,7 +152,7 @@ p {
 	border-radius: 5px;
 	position: absolute;
 	bottom: 0;
-	left: 21.5%;
+	left: 16.5%;
 	transform: translateX(5%);
 }
 
@@ -187,7 +175,7 @@ p {
 
 .Ltitle {
 	font-family: "Quicksand", sans-serif;
-	margin-left: 510px;
+	margin-left: 725px;
 	margin-right: 50px;
 	margin-bottom: 50px;
 	padding-left: 100px;
@@ -204,6 +192,6 @@ p {
 	border-radius: 5px;
 	position: absolute;
 	bottom: 0;
-	left: 21.3%;
+	left: 15.3%;
 	transform: translateX(5%);
 }
