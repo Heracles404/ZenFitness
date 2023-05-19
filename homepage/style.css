@@ -11,9 +11,12 @@
 }
 
 .header .row {
-	margin-top: 150px;
-    
+	margin-top: 280px;
+
+	padding-right: 500px;
 }
+    
+
 
 .container {
 	font-family: "Merriweather", sans-serif;
@@ -74,15 +77,17 @@ p {
 /*This is the Title*/
 .col-2 {
 	flex-basis: 50%;
-	min-width: 800px;
+	min-width: 700px;
 	color: black;
-	margin-top: -200px;
+	margin-top: -250px;
+	padding-left: 50x;
 	
 }
 
 .col-2 img {
 	max-width: 100%;
-	padding: 135px 0;
+	padding-bottom: 0px;
+	padding-left: 200px;
 }
 
 .col-2 h1 {
@@ -142,7 +147,7 @@ p {
 
 .Ftitle {
 	font-family: "Merriweather", sans-serif;
-	margin-left: 710px;
+	margin-left: 510px;
 	margin-right: 0px;
 	margin-bottom: 50px;
 	padding-left: 100px;
@@ -159,7 +164,7 @@ p {
 	border-radius: 5px;
 	position: absolute;
 	bottom: 0;
-	left: 16.5%;
+	left: 21.5%;
 	transform: translateX(5%);
 }
 
@@ -182,7 +187,7 @@ p {
 
 .Ltitle {
 	font-family: "Quicksand", sans-serif;
-	margin-left: 725px;
+	margin-left: 510px;
 	margin-right: 50px;
 	margin-bottom: 50px;
 	padding-left: 100px;
@@ -199,6 +204,6 @@ p {
 	border-radius: 5px;
 	position: absolute;
 	bottom: 0;
-	left: 15.3%;
+	left: 21.3%;
 	transform: translateX(5%);
 }
