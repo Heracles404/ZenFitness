@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/60cfd8feda3dfa62c75ac67d4e32013f?family=Quicksand);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
 * {
 	margin: 0;
@@ -6,8 +6,25 @@
 	box-sizing: border-box;
 }
 
+.header {
+	/*background: radial-gradient(#fff5f5, #fffbf5); */
+}
+
+.header .row {
+	margin-top: 150px;
+    
+}
+
+.container {
+	font-family: "Merriweather", sans-serif;
+	max-width: 95%;
+	margin: auto;
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
 .navbar {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	margin-top: 0%;
 	font-size: 25px;
 	display: flex;
@@ -42,13 +59,7 @@ p {
 	color: 865dff;
 }
 
-.container {
-	font-family: "Quicksand", sans-serif;
-	max-width: 95%;
-	margin: auto;
-	padding-left: 0px;
-	padding-right: 25px;
-}
+
 
 .row {
 	padding-left: 130px;
@@ -56,13 +67,17 @@ p {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+    font-weight: bold;
+
 }
 
 /*This is the Title*/
 .col-2 {
 	flex-basis: 50%;
-	min-width: 300px;
+	min-width: 800px;
 	color: black;
+	margin-top: -200px;
+	
 }
 
 .col-2 img {
@@ -90,13 +105,7 @@ p {
 	background: #ffc090;
 }
 
-.header {
-	background: radial-gradient(#fffbf5, #fffbf5);
-}
 
-.header .row {
-	margin-top: 50px;
-}
 
 .categories {
 	margin: 70px 0;
@@ -132,7 +141,7 @@ p {
 }
 
 .Ftitle {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	margin-left: 710px;
 	margin-right: 0px;
 	margin-bottom: 50px;
@@ -170,8 +179,6 @@ p {
 .col-4:hover {
 	transform: translateY(-10px);
 }
-
-/*-------------- Offer -------------*/
 
 .Ltitle {
 	font-family: "Quicksand", sans-serif;
