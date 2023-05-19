@@ -1,9 +1,26 @@
-@import url(//db.onlinewebfonts.com/c/60cfd8feda3dfa62c75ac67d4e32013f?family=Quicksand);
+style.css
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.header {
+	background: radial-gradient(#fff5f5, #fffbf5);
+}
+
+.header .row {
+	margin-top: 50px;
+    
+}
+
+.container {
+	font-family: "Quicksand", sans-serif;
+	max-width: 95%;
+	margin: auto;
+	padding-left: 0px;
+	padding-right: 25px;
 }
 
 .navbar {
@@ -42,13 +59,7 @@ p {
 	color: 865dff;
 }
 
-.container {
-	font-family: "Quicksand", sans-serif;
-	max-width: 95%;
-	margin: auto;
-	padding-left: 0px;
-	padding-right: 25px;
-}
+
 
 .row {
 	padding-left: 130px;
@@ -56,6 +67,8 @@ p {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+    font-weight: bold;
+
 }
 
 /*This is the Title*/
@@ -90,13 +103,7 @@ p {
 	background: #ffc090;
 }
 
-.header {
-	background: radial-gradient(#fffbf5, #fffbf5);
-}
 
-.header .row {
-	margin-top: 50px;
-}
 
 .categories {
 	margin: 70px 0;
@@ -170,8 +177,6 @@ p {
 .col-4:hover {
 	transform: translateY(-10px);
 }
-
-/*-------------- Offer -------------*/
 
 .Ltitle {
 	font-family: "Quicksand", sans-serif;
