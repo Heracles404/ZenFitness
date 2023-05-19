@@ -22,7 +22,8 @@ h1{
 }
 
 .faq{
-    background-color: transparent;
+    background-color: #865dff;
+    color: #fff;
     border: 1px solid #9fa4a8;
     border-radius: 10px;
     margin: 20px 0;
@@ -34,6 +35,7 @@ h1{
 
 .faq.active{
     background-color: #ffffff;
+    color: #333333;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1),
     0 3px 6px rgba(0, 0, 0, 0.1);
 }
