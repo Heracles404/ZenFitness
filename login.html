@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--icon-->
+    <link rel="icon" href="#">
+    <!--title-->
     <title>Welcome back!</title>
+    <!--style-->
+    <link rel="stylesheet" href="login.css">
+    <!--favicons-->
+    <script src="https://kit.fontawesome.com/d1612815b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="container">
+    <h1>Please Login</h1>
+    <form>
+        <div class="form-control">
+            <input type="text" required>
+            <label>Email</label>
+        </div>
 
+        <div class="form-control">
+            <input type="password" required>
+            <label>Password</label>
+        </div>
+
+        <a href="./homepage/index.html">
+            <button class="btn">Login</button>
+        </a>
+
+        <p class="text">
+            Don't have an account?
+            <a href="register.html">Register</a>
+        </p>
+    </form>
+</div>
+
+<script src="login.js"></script>
 </body>
 </html>
