@@ -53,7 +53,7 @@ a {
 
 /* SMALL LETTERISH */
 p {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	font-size: 21px;
 	color: 865dff;
 }
@@ -70,7 +70,7 @@ p {
 /*This is the Title*/
 .col-2 {
 	flex-basis: 50%;
-	min-width: 800px;
+	min-width: 500px;
 	color: black;
 	margin-top: -200px;
 }
@@ -157,12 +157,12 @@ p {
 }
 
 .FP {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	color: #865dff;
 }
 
 .col-4 P {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 }
 
 .rating .bi {
@@ -174,7 +174,7 @@ p {
 }
 
 .Ltitle {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	margin-left: 725px;
 	margin-right: 50px;
 	margin-bottom: 50px;
